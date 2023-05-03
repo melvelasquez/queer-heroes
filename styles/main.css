@@ -1,51 +1,54 @@
 html {
-	- font-size: 16px;
-	}
+	font-size: 16px;
+}
+
+body { 
+	background-image: url(../assets/background-copy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+
+h1 {  
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-weight: 700; font-style: normal;
+	font-size: 4rem; text-align: center;
+}
+
+h2 {
+	font-family: helvetica, sans-serif;
+}
 
 h3 { 
 	font-family: "neue-haas-unica", sans-serif;
 	font-weight: 600; 
 	font-style: normal; 
 	font-size: 1rem;
-	}
-
-h1{ 
-	text-align: left;
-    margin-top: 50px;
-    padding-top: 150px;
-    padding-left: 75px;
-	font-family: helvetica, sans-serif;
-	font-weight: 700; font-style: normal;
-	font-size: 4rem; text-align: center;
-	}
-
-h2{
-	margin-top: 175px;
-	position: relative;
-	left: 1025px;
-	font-family: helvetica, sans-serif;
 }
 
-#h1{
-	text-align: left;
-    margin-top: 50px;
-    margin-left: 50px;
+
+header .row{
+  min-height: 100vh;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
 }
 
-body { 
-	background-image: url(../assets/background-copy.jpg);
-	background-size: 2000px, 1000px;
-	}
-
-img  {
-  width: 60%;
-  height: auto;
+#title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
+/*
 #opener{
 	float:right;
 	transform: translateY(-300px);
 	}
+*/
 
 figcaption {
 	font-family:"'cooper-black-std", serif;
@@ -59,15 +62,20 @@ figcaption {
    .small-only {
    display: block;
    }
-  }
+}
 
-  nav {
-    position: fixed;
-    top: 10;
-    left: 10;
-    padding-left: 15px;
-    font-family: sans-serif;
-  }
+nav {
+  position: fixed;
+  top: 10;
+  left: 10;
+  padding-left: 15px;
+  font-family: sans-serif;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
 
   ul {
     list-style-type: none;
@@ -85,6 +93,7 @@ figcaption {
     color: black;
   }
 
+/*
 #first-p{
 	margin-top: 50px;
 	position: relative;
@@ -92,7 +101,9 @@ figcaption {
 	font-family: helvetica, sans-serif;
 	font-size: 1rem;
 }
+*/
 
+/*
 .image-row {
   display: flex;
 }
@@ -104,19 +115,24 @@ figcaption {
   margin-right: 20px;
   margin-left: 20px;
 }
+*/
 
 #second-p{
+/*
 	margin-top: 50px;
 	margin-right: 50px;
 	margin-left: 50px;
+*/
 	font-family: helvetica, sans-serif;
 	font-size: 1rem;
 }
 
+/*
 .side-img{
 	float:left;
 	width: 45%;
 }
+*/
 
 #third-p{
 	font-family: helvetica, sans-serif;
