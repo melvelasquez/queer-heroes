@@ -1,0 +1,124 @@
+html {
+	- font-size: 16px;
+	}
+
+h3 { 
+	font-family: "neue-haas-unica", sans-serif;
+	font-weight: 600; 
+	font-style: normal; 
+	font-size: 1rem;
+	}
+
+h1{ 
+	text-align: left;
+    margin-top: 50px;
+    padding-top: 150px;
+    padding-left: 75px;
+	font-family: helvetica, sans-serif;
+	font-weight: 700; font-style: normal;
+	font-size: 4rem; text-align: center;
+	}
+
+h2{
+	margin-top: 175px;
+	position: relative;
+	left: 1025px;
+	font-family: helvetica, sans-serif;
+}
+
+#h1{
+	text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+body { 
+	background-image: url(../assets/background-copy.jpg);
+	background-size: 2000px, 1000px;
+	}
+
+img  {
+  width: 60%;
+  height: auto;
+}
+
+#opener{
+	float:right;
+	transform: translateY(-300px);
+	}
+
+figcaption {
+	font-family:"'cooper-black-std", serif;
+ 	font-weight: 700;
+	font-style: normal; font-size: 2rem;
+	text-align: center;
+	color: white
+	}
+
+@media (max-width: 399px) {
+   .small-only {
+   display: block;
+   }
+  }
+
+  nav {
+    position: fixed;
+    top: 10;
+    left: 10;
+    padding-left: 15px;
+    font-family: sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+#first-p{
+	margin-top: 50px;
+	position: relative;
+	left: 710px;
+	font-family: helvetica, sans-serif;
+	font-size: 1rem;
+}
+
+.image-row {
+  display: flex;
+}
+
+.image-row img {
+  flex: 1;
+  max-width: 30%;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#second-p{
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	font-family: helvetica, sans-serif;
+	font-size: 1rem;
+}
+
+.side-img{
+	float:left;
+	width: 45%;
+}
+
+#third-p{
+	font-family: helvetica, sans-serif;
+	font-size: 1rem;
+}
