@@ -19,6 +19,8 @@ h1 {
 
 h2 {
 	font-family: helvetica, sans-serif;
+	padding-bottom: 20px;
+	font-weight: 500; font-style: normal;
 }
 
 h3 { 
@@ -43,12 +45,11 @@ header .row{
   height: 100%;
 }
 
-/*
+
 #opener{
-	float:right;
-	transform: translateY(-300px);
+	width: 80%;
 	}
-*/
+
 
 figcaption {
 	font-family:"'cooper-black-std", serif;
@@ -69,7 +70,9 @@ nav {
   top: 10;
   left: 10;
   padding-left: 15px;
+  padding-top: 20px;
   font-family: sans-serif;
+  font-size: 1.5rem;
 }
 
 nav a{
@@ -93,15 +96,13 @@ nav a{
     color: black;
   }
 
-/*
+
 #first-p{
-	margin-top: 50px;
-	position: relative;
-	left: 710px;
 	font-family: helvetica, sans-serif;
 	font-size: 1rem;
+	padding-bottom: 20px;
 }
-*/
+
 
 /*
 .image-row {
@@ -118,11 +119,8 @@ nav a{
 */
 
 #second-p{
-/*
 	margin-top: 50px;
-	margin-right: 50px;
-	margin-left: 50px;
-*/
+	margin-bottom: 50px;
 	font-family: helvetica, sans-serif;
 	font-size: 1rem;
 }
@@ -137,4 +135,6 @@ nav a{
 #third-p{
 	font-family: helvetica, sans-serif;
 	font-size: 1rem;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
