@@ -27,7 +27,8 @@ h3 {
 	font-family: "neue-haas-unica", sans-serif;
 	font-weight: 600; 
 	font-style: normal; 
-	font-size: 1rem;
+	font-size: 1.5rem;
+	padding-top: 30px;
 }
 
 
@@ -100,7 +101,6 @@ nav a{
 #first-p{
 	font-family: helvetica, sans-serif;
 	font-size: 1rem;
-	padding-bottom: 20px;
 }
 
 
@@ -118,9 +118,7 @@ nav a{
 }
 */
 
-#second-p{
-	margin-top: 50px;
-	margin-bottom: 50px;
+.second-p{
 	font-family: helvetica, sans-serif;
 	font-size: 1rem;
 }
@@ -135,6 +133,8 @@ nav a{
 #third-p{
 	font-family: helvetica, sans-serif;
 	font-size: 1rem;
-	margin-top: 50px;
-	margin-bottom: 50px;
+}
+
+.bottom-p{
+	padding-bottom: 50px;
 }
