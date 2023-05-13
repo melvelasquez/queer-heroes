@@ -49,6 +49,27 @@ header .row{
   align-items: center;
 }
 
+footer {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-nav ul li a {
+  color: #333;
+}
+
 #title{
   display: flex;
   flex-direction: column;
@@ -74,27 +95,6 @@ figcaption {
    .small-only {
    display: block;
    }
-}
-
-footer {
-  padding: 20px;
-  font-size: 1.5rem;
-}
-
-.footer-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.footer-nav ul li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.footer-nav ul li a {
-  color: #333;
 }
 
 p {
