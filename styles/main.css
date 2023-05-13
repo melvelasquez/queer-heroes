@@ -76,33 +76,26 @@ figcaption {
    }
 }
 
-nav {
-  position: fixed;
-  top: 10;
-  left: 10;
-  padding-left: 15px;
-  padding-top: 20px;
-  font-family: "articulat-cf", sans-serif;
-	font-weight: 500;
-	font-style: normal;
+footer {
+  padding: 20px;
   font-size: 1.5rem;
 }
 
-nav a{
-  text-decoration: none;
-  color: black;
+.footer-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+.footer-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
 
-  li {
-    display: inline-block;
-    margin-right: 20px;
-  }
+.footer-nav ul li a {
+  color: #333;
+}
 
 p {
 	font-family: "articulat-cf", sans-serif;
